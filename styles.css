@@ -1,11 +1,11 @@
 body {width: 70%; margin: 0 auto;}
-        h1 {font-size: 32px; color:blue;}
-        h2, h3 {font-family:  Arial, Helvetica; margin-top: 1.5em; margin-right:0em; margin-bottom: 0em;
-            margin-left: 0em;}
-        table, th, td { border: 1px solid black ; border-collapse: collapse;}
-        td {text-align: center;}
-        figure{float: right; margin: 15 0 10 10}
-        figcaption {font-style: italic; text-align: center;}
+h1 {font-size: 32px; color:blue;}
+h2, h3 {font-family:  Arial, Helvetica; margin-top: 1.5em; margin-right:0em; margin-bottom: 0em;
+margin-left: 0em;}
+table, th, td { border: 1px solid black ; border-collapse: collapse;}
+td {text-align: center;}
+figure{float: right; margin: 15 0 10 10}
+figcaption {font-style: italic; text-align: center;}
 
         
 

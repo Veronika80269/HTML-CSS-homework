@@ -1,209 +1,209 @@
+body {
+  overflow-x: hidden;
+  margin: 0; 
+  padding: 0;}
+ 
 .menu {
-    position: fixed;
-    background-color:#007765;
-    width: 100%;
-    height: 84px ;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-  }
-.logo
-  {
-    width: 184px;
-    height: 45px;
-    display: flex;
-    padding-left: 55px;
-
-  }
-  ul
-  {
-    list-style: none;
-    margin: 0;
-    padding: 20px;
-  }
-
-  a{
-    font-size: 29px;
-    padding: 28px;
-    color: white;
-    text-decoration: none;
-    }
-
-  a:hover {
-    color: #003364;
-    text-decoration: none;
-  }
-
-  li
-  {
-     display: inline-block;
-  }
-
-  .conteiner_piper {
-    box-sizing: border-box;
-    max-width: 1219px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 55px;
-    padding-right: 55px;
-    }
+  height: 84px;
+  width: 100%;
+  top: 0;
+  background-color: #007765;
+  position: fixed;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
   
-  .piper {
+.logo{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 20px 502px 19px 55px;
+}
+
+.links {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+  
+
+a {
+  font-size: 29px;
+  padding: 28px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #003364;
+  text-decoration: none;
+}
+
+li,
+ul
+  {
+   display: inline-block;
+  }
+
+.conteiner_piper {
+  box-sizing: border-box;
+  max-width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+  
+.piper {
   padding-top: 128px;
   padding-bottom: 128px;
   background-image: url('imges/image-8.png');
   background-size: cover;
-  background-position: center center;}
-
-h1{
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
-    font-size: 72px;
-    text-align: center;
-    color: #fff;
+  background-position: center center;
 }
 
-  .problem{
+h1 {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 72px;
+  text-align: center;
+  color: #fff;
+}
+
+.problem{
   box-sizing: border-box;
   background-color: white;
-  padding: 48px 55px 90px;
+  padding: 20px 55px 90px;
    
 }
 
 
-h2{
-        margin: 0;
-        font-size: 64px;
-        font-weight: 700;
-        text-align: center;
-        color: #007765; 
+h2 {
+  margin: 75px;
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  color: #007765; 
  }
 
 
-  p {
-    font-family:  Roboto, sans-serif;
-    padding: 0;
-    margin: 0;
-    font-size: 32px;}
+p {
+  font-family:  Roboto, sans-serif;
+  padding: 0;
+  font-size: 32px;
+  }
 
-    .container {
-      box-sizing: border-box;
-      max-width: 1219px;
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: 55px;
-      padding-right: 55px;
-    }
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
     
-    .hero {
-      padding-top: 128px;
-      padding-bottom: 128px;
-      background-image: url('imges/image-1.png');
-      background-size: cover;
-      background-position: center center;
-    }
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url('imges/image-1.png');
+  background-size: cover;
+  background-position: center center;
+}
     
-    .text__hero {
-      font-family: Roboto, sans-serif;
-      font-style: italic;
-      font-weight: 500;
-      font-size: 48px;
-      line-height: 56px;
-      text-align: center;
-      color: #fff
-    }
+.text__hero {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff
+}
 
-    .intro {
-      background-color: #FFFFFF;
-      padding: 48px 55px;
-    }
+.intro {
+  background-color: #FFFFFF;
+  margin: 0;
+}
     
-    .intro h2 {
-      padding-bottom: 10px;
-    }
+  
     
-    .intro img {
-      width: 115px;
-      height: 115px;
-      padding-right:48px;
-      float: left;
-    }
+.intro img {
+  width: 115px;
+  height: 115px;
+  padding-right:48px;
+  float: left;
+}
     
-    .razdelitel {
-      padding-top: 30px;
-    }
+.razdelitel {
+  padding-top: 30px;
+}
     
-    .content-intro {
-      padding-top: 16px;
-    }
+.content-intro {
+  padding-top: 6px;
+}
 
-    .team {
-      background-color: #EEEEEE;
-      padding: 55px 55px;
-    }
+.team {
+  background-color: #EEEEEE;
+  margin: 0;
+  padding: 20px 55px ;
+}
     
-    .member-card {
-      width: 350px;
-      height: 280px;
-      text-align: center;
-    }
+.member-card {
+  width: 350px;
+  height: 280px;
+  text-align: center;
+}
     
-    .member-card figcaption {
-      margin: 0;
-      font-size: 24px;
-      font-weight: 700;
-      color: #007765;
-      line-height: 28px;
-      
-      
-    }
+.member-card figcaption {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #007765;
+  line-height: 28px;  
+}
     
-    .member-card span {
-      font-style: italic;
-      font-weight: 400;
-      font-size: 18px;
-    }
+.member-card span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+}
     
-    .member-card img {
-      width: 180px;
-      height: 180px;
-    }
+.member-card img {
+  width: 180px;
+  height: 180px;
+}
     
-    .up {
-      padding-top: 50px;
-      display: flex;
-      justify-content: space-around;
-    }
+.up {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
     
-    .down {
-      padding-top: 30px;
-      display: flex;
-      justify-content: center;
-    }
+.down {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
     
-    #footer {
-      width: 100%;
-      background-color: black;
-      display: flex;
-      justify-content: center;
-    }
+#footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
     
-    .content-footer {
-      width: 540px;
-      text-align: center;
-      padding-top: 48px;
-      padding-bottom: 65px;
-    }
+.content-footer {
+  width: 540px;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 65px;
+}
     
-    .content-footer p {
-      color:#FFFFFF;
-      font-size: 18px;
-      font-weight: 400;
-    }
+.content-footer p {
+  color:#FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+}
 
 
 
